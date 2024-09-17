@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "joe": "mocha test/joe.spec.js",
-    "joe-failing": "mocha test/joe-fail.spec.js",
-    "langdon": "mocha test/langdon.spec.js",
-    "langdon-failing": "mocha test/langdon-fail.spec.js"
+    "field": "mocha test/field.spec.js",
+    "field-failing": "mocha test/field-fail.spec.js",
+    "lump": "mocha test/lump.spec.js",
+    "lump-failing": "mocha test/lump-fail.spec.js"
   },
   "author": "Ryan Latta",
   "license": "MIT",
