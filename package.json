@@ -1,0 +1,19 @@
+{
+  "name": "test-shape-examples",
+  "version": "0.1.0",
+  "description": "A small example showing how different test shapes make debugging easier or not.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "joe": "mocha test/joe.spec.js",
+    "joe-failing": "mocha test/joe-fail.spec.js",
+    "langdon": "mocha test/langdon.spec.js",
+    "langdon-failing": "mocha test/langdon-fail.spec.js"
+  },
+  "author": "Ryan Latta",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3"
+  }
+}
